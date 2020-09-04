@@ -1,9 +1,9 @@
 # My Awesome Portfolio App
 
-> This is my personal portfolio, I built it vuejs/nuxtjs, 
+> This is my personal portfolio, I built it vuejs/nuxtjs
 
 ## Technology involved in this project
-- 
+- SSR (nuxtServerInit())
 
 ## Build Setup
 

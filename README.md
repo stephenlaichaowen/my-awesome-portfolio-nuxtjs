@@ -3,7 +3,7 @@
 > This is my personal portfolio, I built it vuejs/nuxtjs
 
 ## Technology involved in this project
-- SSR (nuxtServerInit())
+- <u>SSR (nuxtServerInit())</u>
 
 ## What's special about this app ?
 - _**language**_: you can toggle language between English <==> Chinese

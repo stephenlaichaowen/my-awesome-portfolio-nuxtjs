@@ -27,12 +27,11 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['isChinese'])
+    ...mapGetters(['isChinese', 'data'])
   },
-  async mounted() {
-    const data = await this.$axios.$get('/data.json')
-    this.contact = data.contact.main
-  }
+  mounted() {
+    this.contact = this.data.contact.main
+  },
 }
 </script>
 

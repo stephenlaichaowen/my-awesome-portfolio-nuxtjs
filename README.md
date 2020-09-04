@@ -1,6 +1,6 @@
-# portfolio-app
+# My Awesome Portfolio App
 
-> My Portfolio App
+> This is my personal portfolio, 
 
 ## Build Setup
 
@@ -19,4 +19,10 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Deploy to Netlify
+```bash
+
+```
+
+## Demo
+[]()

@@ -10,6 +10,17 @@
             <i class="fas fa-bars"></i>
           </button>
         </div>
+        
+        <!-- <ul class="nav-links">
+          <li v-for="item in menu" :key="item.id">
+            <nuxt-link v-if="!isChinese" :to="`${item.url}`">{{ item.engTitle }}</nuxt-link>
+            <nuxt-link v-else :to="`${item.url}`">{{ item.chnTitle }}</nuxt-link>
+          </li>
+          <li @click="toggleLang">
+            <i class="fas fa-language fa-2x" style="line-height: 1.2rem"></i>
+          </li>
+        </ul> -->
+
         <ul class="nav-links">
           <li v-for="item in menu" :key="item.id">
             <nuxt-link v-if="!isChinese" :to="`${item.url}`">{{ item.engTitle }}</nuxt-link>

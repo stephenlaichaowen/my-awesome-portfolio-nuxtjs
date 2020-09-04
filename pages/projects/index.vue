@@ -46,11 +46,10 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['isChinese'])
+    ...mapGetters(['isChinese', 'data'])
   },
-  async mounted() {
-    const data = await this.$axios.$get('/data.json')
-    this.projects = data.projects.main
+  mounted() {
+    this.projects = this.data.projects.main
   }
 }
 </script>

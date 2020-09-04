@@ -35,16 +35,14 @@ export default {
   },
   data() {
     return {
-      // about: []
+      about: []
     }
   },
   computed: {
-    ...mapGetters(['isChinese'])
+    ...mapGetters(['isChinese', 'data'])
   },
-  async asyncData({ $axios }) {
-    const data = await $axios.$get('/data.json')
-    // this.about = data.about.main
-    return { about: data.about.main }
+  mounted() {
+    this.about = this.data.about.main
   }
 }
 </script>

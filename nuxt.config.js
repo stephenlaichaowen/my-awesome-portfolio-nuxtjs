@@ -40,7 +40,8 @@ export default {
   ],
 
   axios: {
-    baseURL: process.env.BASE_URL || 'http://localhost:3000'
+    baseURL: (process.env.NODE_ENV === 'production' ? 'https://my-awesome-portfolio-nuxtjs.netlify.app' : 'http://localhost:3000'),
+    // baseURL: process.env.BASE_URL || 'http://localhost:3000'
   },
 
   build: {

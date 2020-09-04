@@ -5,6 +5,11 @@
 ## Technology involved in this project
 - SSR (nuxtServerInit())
 
+## What's special about this app ?
+- language: you can toggle language from English <==> Chinese
+- rwd: this app is fully responsive
+- pwa: you can install this app into your browser's cache, make it a native app
+
 ## Build Setup
 
 ```bash

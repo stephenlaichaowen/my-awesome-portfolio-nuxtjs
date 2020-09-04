@@ -37,7 +37,20 @@ export default {
 
   modules: [
     '@nuxtjs/axios',
+    '@nuxtjs/pwa'
   ],
+
+  pwa: {
+    manifest: {
+      name: 'Stephen Lai',
+      short_name: 'Stephen Lai',
+      display: 'fullscreen',
+      start_url: '/?fullscreen=true'
+    },
+    workbox: {
+      
+    }
+  },
 
   axios: {
     baseURL: process.env.NODE_ENV === 'production' ? 'https://my-awesome-portfolio-nuxtjs.netlify.app' : 'http://localhost:3000'

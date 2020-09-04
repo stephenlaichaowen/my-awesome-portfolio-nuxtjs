@@ -30,7 +30,7 @@ $ npm run generate
 ```
 
 ## Demo
-[My Awesome Portfolio Web App](https://my-awesome-portfolio-nuxtjs.netlify.app/)
+[https://my-awesome-portfolio-nuxtjs.netlify.app/](https://my-awesome-portfolio-nuxtjs.netlify.app/)
 
 ## Reference
-[Portfolio Site](https://html-css-portfolio-css-grid-project.netlify.app/)
+[Portfolio Site - John Smilga](https://html-css-portfolio-css-grid-project.netlify.app/)

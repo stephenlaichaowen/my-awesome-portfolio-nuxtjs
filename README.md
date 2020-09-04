@@ -6,9 +6,9 @@
 - SSR (nuxtServerInit())
 
 ## What's special about this app ?
-- language: you can toggle language between English <==> Chinese
-- rwd: this app is fully responsive
-- pwa: you can install this app into your browser's cache, make it a native app
+- _**language**_: you can toggle language between English <==> Chinese
+- _**rwd**_: this app is fully responsive
+- _**pwa**_: you can install this app into your browser's cache, make it a native app
 
 ## Build Setup
 

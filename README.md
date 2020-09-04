@@ -3,9 +3,9 @@
 > This is my personal portfolio, I built it vuejs/nuxtjs
 
 ## Technology involved in this project
-- <u>SSR (nuxtServerInit())</u>
+- SSR (nuxtServerInit())
 
-## What's special about this app ?
+## What's new ?
 - _**language**_: you can toggle language between English <==> Chinese
 - _**rwd**_: this app is fully responsive
 - _**pwa**_: you can install this app into your browser's cache, make it a native app

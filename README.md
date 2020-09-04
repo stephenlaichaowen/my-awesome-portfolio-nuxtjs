@@ -29,9 +29,11 @@ $ npm run generate
 
 ## Deploy to Netlify
 ```bash
-# Build settings
-- Build command: npm run generate
-- Publish directory: dist
+# Build command
+npm run generate
+
+# Publish directory
+dist
 ```
 
 ## Demo
